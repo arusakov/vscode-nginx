@@ -1,0 +1,26 @@
+{
+    "name": "nginx",
+    "displayName": "Nginx",
+    "description": "Nginx conf language support",
+    "version": "0.0.1",
+    "publisher": "arusakov",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "nginx",
+            "aliases": ["nginx"],
+            "extensions": [".conf.erb",".conf",".nginx.conf",".mime.types",".fastcgi_params",".scgi_params",".uwsgi_params"],
+            "configuration": "./nginx.configuration.json"
+        }],
+        "grammars": [{
+            "language": "nginx",
+            "scopeName": "source.nginx",
+            "path": "./syntaxes/nginx.tmLanguage"
+        }]
+    }
+}
