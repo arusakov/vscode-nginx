@@ -1,5 +1,7 @@
 # README
 ## This is the README for your extension "nginx"
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/arusakov/vscode-nginx.svg)](https://greenkeeper.io/)
 You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
 
 * Split the editor (`Cmd+\` on OSX or `Ctrl+\` on Windows and Linux)
